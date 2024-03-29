@@ -1,0 +1,204 @@
+
+* {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content { /* Add this class to your main content wrapper in HTML */
+    flex: 1;
+    overflow: auto; /* Adjust content overflow */
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    background-image: url('IMG\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.Title {
+    font-size: 80px;
+    margin-top: 20PX;
+    color: #0b2e22;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    text-shadow: 0 0 10px #3cffa3, 0 0 20px #2cff88, 0 0 30px #1cff6e;
+    
+
+}
+
+.my-box h1 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+.my-box a {
+    font-size: 18px;   
+}
+
+.my-box {
+    /* width: 950px; */
+    padding: 20px;
+    margin-top: 2px; 
+    font-size: 20px; 
+    text-align: justify;
+    
+}
+
+.Why {
+    width: 950px;
+    font-size: 18px;
+    margin-left: 35px;
+    text-align: center;
+}
+.Why p {
+    width: 800px;
+    font-size: 22px;
+    margin-left:1px;
+    text-align: justify;
+}
+
+.Why a {
+    color: blue;
+    text-decoration: none;
+}
+.discover {
+    width: 950px;
+    font-size: 20px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.point {
+    margin-bottom: 20px; 
+    font-size: 22px;
+    text-align: justify;
+}
+
+footer {
+    margin-top: auto;
+    background-color: black;
+    height: 50px;
+
+}
+
+.foot-panel1 {
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 10px; 
+    box-sizing: border-box; 
+    font-size: 17px;
+    
+}
+
+.footer-quote {
+    flex-grow: 1; 
+    text-align: center; 
+    margin-right: 20px;
+    
+}
+
+.footer-copy {
+    flex-shrink: 0; /* Prevents the copyright from shrinking */
+    text-align: right; /* Aligns the copyright text to the right */
+    margin: 0; /* Removes default paragraph margins */
+}
+
+@media (min-width: 200px) and (max-width: 1200px){
+
+    html, body {
+        height: 1990px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+    flex: 1;
+    overflow: auto; /* Adjust content overflow */
+    display: flex;
+    flex-direction: column;
+    } 
+
+    body {
+        background-image: url('BG.avif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+
+    .Title {
+        font-size: 80px;
+        margin-top: 20PX;
+        color: aqua;
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        text-shadow: none;
+    }
+    .my-box h1 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    .my-box p {
+        padding: 20px;
+        margin-top: 1px; 
+        font-size: 15px; 
+        text-align: justify; 
+        color: aliceblue;
+    }
+    .Why h1 {
+        color: antiquewhite;
+    }
+    .Why p{
+        width: auto;
+        font-size: 13px;
+        color: aliceblue;
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+    .Why a{
+        color: whitesmoke;
+        text-decoration: underline;
+        font-size: 15px;
+    }
+
+    .discover {
+        width: 950px;
+        font-size: 20px;
+        margin-left: 35px;
+        text-align: center;
+        color: antiquewhite;
+    }
+    .point  {
+        width: auto;
+        font-size: 12px;
+        color: aliceblue;
+        margin-right: 40px;
+        margin-left: 10px;
+
+    }
+   
+}
+
+
+
+

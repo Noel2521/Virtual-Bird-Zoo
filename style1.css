@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 820px;
+    /* background-color: #caf0f8; */
+}
+
+.content-area {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the container vertically */
+    gap: 20px; /* Adds space between the two boxes */
+}
+
+
+
+.Macaws {
+    text-align: center; /* Centers the text and image inside the div */
+    font-size: 25px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  
+}
+
+.image-gallery img.active, .image-gallery img:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 140, 186, 0.5); /* This creates the glowing effect */
+    cursor: pointer; /* Changes the cursor to a pointer when over the image */
+}
+
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: for rounded corners */
+    
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-between; /* This spreads out the boxes evenly */
+}
+
+.box1, .box2, .box3 {
+    flex: 1; /* Each box will take up equal width */
+    margin: 5px; /* Adds a little space between the boxes */
+    height: 400px;
+    /* background-color: burlywood; */
+    margin-top: 0px;
+}
+
+.point {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.point1{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.Bulletpoints {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.Bulletpoints li{
+    margin-bottom: 5px;
+}
+.domain{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-inline-start: 5px;
+}
+
+.space{
+    height: 20px;
+    width: 100%;
+    background-color: #03045e;
+
+}
+
+.box-ma{
+    height: 1000px;
+    /* background-color: aquamarine; */
+}
+
+.Ma h1{
+    text-align: center;
+    font-size: 45px;
+}
+.box1, .box2, .box3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.hb h1{
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.box-hb {
+    height: 870px;
+}
+
+.rl h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.box-RL {
+    height: 1100px;
+}
+
+.box-wt {
+    height: 1070px;
+}
+.wt h1{
+
+    text-align: center;
+    font-size: 45px;
+}
+.box-cl{
+    height: 1040px;
+}
+.cl h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.box-bd {
+    height: 940px;
+}
+.bd h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.box-dove {
+    height: 1170px;
+}
+
+.dove h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.box-scc{
+    height: 890px;
+}
+
+.scc h1{
+    text-align: center;
+    font-size: 45px;
+}
+.box-wp{
+    height: 1000px;
+}
+
+.wp h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+@media (min-width: 200px) and (max-width: 1000px){
+    .box {
+        height: 980px;
+        /* background-color: #caf0f8; */
+    }
+    .box-ma{
+        height: 1010px;
+    }
+    .box-hb{
+        height: 1030px;
+    }
+    .box-RL{
+        height: 1545px;
+    }
+    .box-wt{
+        height: 1545px;
+    }
+    .box-cl{
+        height: 1410px;
+    }
+    .box-bd{
+        height: 1060px;
+    }
+    .box-dove{
+        height: 1560px;
+    }
+    .box-scc{
+        height: 1170px;
+    }
+    .box-wp{
+        height: 1250px;
+    }
+    
+}
